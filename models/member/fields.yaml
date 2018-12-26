@@ -1,12 +1,12 @@
 fields:
 
     name:
-        label: Nombre
+        label: 'Nombre'
         span: auto
         required: 1
         
     job:
-        label: Cargo
+        label: 'Cargo'
         span: auto
 
     is_published:
@@ -30,11 +30,11 @@ tabs:
             tab: 'General'
 
         description:
-            label: Descripción/Bio
+            label: 'Descripción/Bio'
             span: full
             size: small
             type: richeditor
-            tab: General
+            tab: 'General'
 
         profile_image:
             label: 'Imagen de perfil'
@@ -49,24 +49,28 @@ tabs:
             span: full
             required: 1
             type: fileupload
-            tab: General
+            tab: 'General'
 
         linkedin_url:
-            label: Linkedin
+            label: 'Linkedin (URL)'
+            placeholder: 'https://linkedin.com...'
             span: auto
-            tab: Social
+            tab: 'Social'
 
         facebook_url:
-            label: Facebook
+            label: 'Facebook (URL)'
+            placeholder: 'https://facebook.com...'
             span: auto
-            tab: Social
+            tab: 'Social'
 
         instagram_user:
-            label: Instagram
+            label: 'Instagram (@usuario)'
+            placeholder: 'usuario'
             span: auto
-            tab: Social
+            tab: 'Social'
 
         twitter_user:
-            label: Twitter
+            label: 'Twitter (@usuario)'
+            placeholder: 'usuario'
             span: auto
-            tab: Social
+            tab: 'Social'

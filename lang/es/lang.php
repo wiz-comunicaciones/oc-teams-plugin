@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
-        'name' => 'Teams',
-        'description' => 'Allows for management of team individuals and their relationships within a team.'
+        'name' => 'Equipo',
+        'description' => 'Permite gestionar integrantes del equipo de un empresa.'
     ]
 ];
