@@ -8,18 +8,26 @@ fields:
     job:
         label: Cargo
         span: auto
-        
-    email:
-        label: Email
-        span: auto
-        
-    phone:
-        label: Teléfono
+
+    is_published:
+        label: 'Publicado'
+        type: switch
+        comment: 'Seleccione si la información del integrante debe mostrarse en el sitio web'
         span: auto
         
 tabs:
 
     fields:
+
+        email:
+            label: 'Email'
+            span: auto
+            tab: 'General'
+
+        phone:
+            label: 'Teléfono'
+            span: auto
+            tab: 'General'
 
         description:
             label: Descripción/Bio
