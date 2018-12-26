@@ -1,0 +1,15 @@
+name: Equipo
+modelClass: Wiz\Teams\Models\Member
+form: $/wiz/teams/models/member/fields.yaml
+defaultRedirect: wiz/teams/members
+create:
+    title: 'Crear Integrante'
+    redirect: 'wiz/teams/members/update/:id'
+    redirectClose: wiz/teams/members
+    flashSave: 'Integrante creado exitosamente'
+update:
+    title: 'Actualizar Integrante'
+    redirect: wiz/teams/members
+    redirectClose: wiz/teams/members
+    flashSave: 'Integrante actualizado exitosamente'
+    flashDelete: 'Integrante eliminado exitosamente'

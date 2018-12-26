@@ -1,0 +1,5 @@
+title: Equipo
+modelClass: Wiz\Teams\Models\Member
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

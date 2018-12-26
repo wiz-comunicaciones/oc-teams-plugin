@@ -1,0 +1,61 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        invisible: true
+        sortable: true
+    name:
+        label: Nombre
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    job:
+        label: Cargo
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+    phone:
+        label: Teléfono
+        type: text
+        invisible: true
+        sortable: false
+    linkedin_url:
+        label: Linkedin
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    facebook_url:
+        label: Facebook
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    instagram_user:
+        label: Instagram
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    twitter_user:
+        label: Twitter
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    is_published:
+        label: Publicado
+        type: switch
+        sortable: true
+    updated_at:
+        label: 'Última Actualización'
+        type: datetime
+        sortable: true
+        format: 'd/m/Y H:i'

@@ -1,2 +1,2 @@
 # plugin-teams
-Allows for team management in Wiz Comunicaciones' sites.
+Very simple unique team member plugin for OctoberCMS.

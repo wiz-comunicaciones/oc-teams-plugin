@@ -1,0 +1,17 @@
+title: Equipo
+modelClass: Wiz\Teams\Models\Member
+list: $/wiz/teams/models/member/columns.yaml
+recordUrl: 'wiz/teams/members/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: name
+    direction: asc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+showTree: 1
+treeExpanded: 1

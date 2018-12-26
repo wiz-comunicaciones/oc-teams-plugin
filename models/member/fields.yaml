@@ -1,0 +1,64 @@
+fields:
+
+    name:
+        label: Nombre
+        span: auto
+        required: 1
+        
+    job:
+        label: Cargo
+        span: auto
+        
+    email:
+        label: Email
+        span: auto
+        
+    phone:
+        label: Teléfono
+        span: auto
+        
+tabs:
+
+    fields:
+
+        description:
+            label: Descripción/Bio
+            span: full
+            size: small
+            type: richeditor
+            tab: General
+
+        profile_image:
+            label: 'Imagen de perfil'
+            mode: image
+            prompt: 'Seleccione una imagen de perfil para el integrante'
+            imageWidth: '125'
+            imageHeight: '125'
+            useCaption: 0
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            required: 1
+            type: fileupload
+            tab: General
+
+        linkedin_url:
+            label: Linkedin
+            span: auto
+            tab: Social
+
+        facebook_url:
+            label: Facebook
+            span: auto
+            tab: Social
+
+        instagram_user:
+            label: Instagram
+            span: auto
+            tab: Social
+
+        twitter_user:
+            label: Twitter
+            span: auto
+            tab: Social
