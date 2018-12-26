@@ -67,47 +67,47 @@ class Member extends Model
 
     public function hasJob()
     {
-        return !is_null('job');
+        return !is_null($this->job);
     }
 
     public function hasPhone()
     {
-        return !is_null('phone');
+        return !is_null($this->phone);
     }
 
     public function hasDescription()
     {
-        return !is_null('description');
+        return !is_null($this->description);
     }
 
     public function hasSocialInfo()
     {
         return (
-            !is_null('linkedin_url') ||
-            !is_null('facebook_url') ||
-            !is_null('instagram_user') ||
-            !is_null('twitter_user')
+            !is_null($this->linkedin_url) ||
+            !is_null($this->facebook_url) ||
+            !is_null($this->instagram_user) ||
+            !is_null($this->twitter_user)
         );
     }
 
     public function hasLinkedin()
     {
-        return !is_null('linkedin_url');
+        return !is_null($this->linkedin_url);
     }
 
     public function hasFacebook()
     {
-        return !is_null('facebook_url');
+        return !is_null($this->facebook_url);
     }
 
     public function hasInstagram()
     {
-        return !is_null('instagram_user');
+        return !is_null($this->instagram_user);
     }
 
     public function hasTwitter()
     {
-        return !is_null('twitter_user');
+        return !is_null($this->twitter_user);
     }
 
     public function hasProfileImage()
