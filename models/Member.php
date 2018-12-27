@@ -70,6 +70,11 @@ class Member extends Model
         return !is_null($this->job);
     }
 
+    public function hasEmail()
+    {
+        return !is_null($this->email);
+    }
+
     public function hasPhone()
     {
         return !is_null($this->phone);
