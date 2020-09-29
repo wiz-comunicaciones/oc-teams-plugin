@@ -17,6 +17,13 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerComponents()
+    {
+        return [
+            \Wiz\Teams\Components\Members::class => 'Members',
+        ];
+    }
+
     public function registerPermissions()
     {
         return [
